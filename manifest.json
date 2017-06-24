@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Dr. Appraiser Bot",
+  "version": "0.0.2",
+  "description": "Get the fair price for a used item",
+  "background": {
+    "scripts":["jquery-3.2.1.min.js", "background.js"]
+  },
+  "commands": {
+    "appraise": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+A",
+        "mac": "Command+Shift+A"
+      },
+      "description": "Appraise me, Dr. Appraiser Bot!"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "http://www.ebay.com/"
+  ]
+}
